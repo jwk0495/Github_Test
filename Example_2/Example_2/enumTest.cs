@@ -1,3 +1,5 @@
+using System;
+
 namespace _250527_consoleTest
 {
     // 접근한정자(public, private, protected)
