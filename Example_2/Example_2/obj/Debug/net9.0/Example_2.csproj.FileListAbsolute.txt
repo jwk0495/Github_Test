@@ -1,0 +1,15 @@
+C:\C#\Github_Test\Example_2\Example_2\obj\Debug\net9.0\Example_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Github_Test\Example_2\Example_2\obj\Debug\net9.0\Example_2.AssemblyInfoInputs.cache
+C:\C#\Github_Test\Example_2\Example_2\obj\Debug\net9.0\Example_2.AssemblyInfo.cs
+C:\C#\Github_Test\Example_2\Example_2\obj\Debug\net9.0\Example_2.csproj.CoreCompileInputs.cache
+C:\C#\Github_Test\Example_2\Example_2\obj\Debug\net9.0\Example_2.sourcelink.json
+C:\C#\Github_Test\Example_2\Example_2\bin\Debug\net9.0\Example_2.exe
+C:\C#\Github_Test\Example_2\Example_2\bin\Debug\net9.0\Example_2.deps.json
+C:\C#\Github_Test\Example_2\Example_2\bin\Debug\net9.0\Example_2.runtimeconfig.json
+C:\C#\Github_Test\Example_2\Example_2\bin\Debug\net9.0\Example_2.dll
+C:\C#\Github_Test\Example_2\Example_2\bin\Debug\net9.0\Example_2.pdb
+C:\C#\Github_Test\Example_2\Example_2\obj\Debug\net9.0\Example_2.dll
+C:\C#\Github_Test\Example_2\Example_2\obj\Debug\net9.0\refint\Example_2.dll
+C:\C#\Github_Test\Example_2\Example_2\obj\Debug\net9.0\Example_2.pdb
+C:\C#\Github_Test\Example_2\Example_2\obj\Debug\net9.0\Example_2.genruntimeconfig.cache
+C:\C#\Github_Test\Example_2\Example_2\obj\Debug\net9.0\ref\Example_2.dll
