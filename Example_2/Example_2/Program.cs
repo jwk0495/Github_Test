@@ -36,7 +36,7 @@ public class Program
         float speed = 5.66f;
         double value = 456456456.5f;
         char input = 'a';
-        string name = "chiho lee";
+        string name = "jungwan Kim";
         bool isActive = true;
         int[] numbers = new int[5]; //공간만 할당 나머지구간 0
         int[] numbers2 = { 1, 2, 5, 10 };
@@ -178,9 +178,9 @@ public class Program
         {
             string myname = nameList[i];
             
-            if (myname == "이치호")
+            if (myname == "김정완")
             { 
-               Console.WriteLine("내 이름은"+myname+"입니다" ); 
+               Console.WriteLine("내 이름은 "+myname+"입니다" ); 
             }
         }
 
