@@ -1,10 +1,13 @@
-namespace _250527_consoleTest;
+using System;
 
-public class ConsoleEx
+namespace Example_2
 {
-    static void Main()
+    public class ConsoleEx
     {
-        string input = Console.ReadLine();
-        Console.WriteLine(input);
+        static void Main123()
+        {
+            string input = Console.ReadLine();
+            Console.WriteLine(input);
+        }
     }
 }

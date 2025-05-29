@@ -1,6 +1,6 @@
 using System;
 
-namespace _250527_consoleTest
+namespace Example_2
 {
     // 접근한정자(public, private, protected)
     // enum: 열거형 타입

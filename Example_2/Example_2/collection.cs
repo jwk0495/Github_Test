@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _250527_consoleTest
+namespace Example_2
 {
     // 컬렉션: 배열처럼 여러개의 데이터를 하나의 객체로 관리하는 기능
     // 장점
@@ -17,7 +17,7 @@ namespace _250527_consoleTest
         static int[] numberArray = new int[5] { 1, 2, 3, 4, 5 };
         static List<int> numberList = new List<int>() { 1, 2, 3, 4, 5 };
 
-        static void Main3()
+        static void Main123()
         {
             int[] numberArray = new int[5] { 1, 2, 3, 4, 5 }; // 고정형
             List<int> numberList = new List<int>() { 1, 2, 3, 4, 5 }; // 가변형
@@ -48,6 +48,8 @@ namespace _250527_consoleTest
             books.Push("마인드 셋");
             books.Push("인간 관계론");
             books.Push("노인과 바다");
+            
+            // books.pop();
 
             foreach (var book in books)
                 Console.WriteLine(book);
@@ -61,6 +63,7 @@ namespace _250527_consoleTest
             characters.Enqueue('C');
             characters.Enqueue('D');
 
+            // characters.Dequeue(); //가장 먼저 들어온 순서대로 제거
             foreach (char c in characters)
                 Console.WriteLine(c);
             
@@ -74,14 +77,22 @@ namespace _250527_consoleTest
             Console.WriteLine("김정완 있나요? " + names.Contains("김정완"));
             foreach (var name in names)
                 Console.WriteLine(name);
+
+            if (!names.Contains("김종환"))
+                Console.WriteLine("김종환이 포함되어있지 않습니다.");
             
             // 4. Dictionary : Key - Value 를 사용하여 데이터를 저장
             Dictionary<string, string> englishDictionary = new Dictionary<string, string>();
-            englishDictionary.Add("책", "book");
+            // englishDictionary.Add("책", "book");
             englishDictionary.Add("사전", "dictionary");
             englishDictionary.Add("우유", "milk");
             englishDictionary.Add("초콜릿", "chocolate");
-            
+
+            if(!englishDictionary.ContainsKey("책"))
+            {
+                Console.WriteLine("책이 포함되어있지 않습니다.");
+                englishDictionary.TryAdd("책", "book");
+            }
             Console.WriteLine("사전의 의미는 : " + englishDictionary["사전"]);
         }
     }

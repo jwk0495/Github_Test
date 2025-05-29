@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _250527_consoleTest
+namespace Example_2
 {
     class typeCasting
     {
