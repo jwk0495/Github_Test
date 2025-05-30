@@ -6,7 +6,7 @@ public class ClassStudy2
 {
     static List<Membership> membershipList;
 
-    static void Main()
+    static void Main123()
     {
         membershipList = new List<Membership>();
 
