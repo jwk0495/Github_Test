@@ -2,7 +2,7 @@ namespace Example_2;
 
 public class ClassStudy3
 {
-    static void Main()
+    static void Main1()
     {
         float result;
         Calculator BasicCal = new Calculator();
