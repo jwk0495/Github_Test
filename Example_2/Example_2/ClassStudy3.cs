@@ -1,4 +1,4 @@
-namespace Example_2;
+namespace Example_3;
 
 public class ClassStudy3
 {

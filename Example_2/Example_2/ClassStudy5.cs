@@ -4,7 +4,7 @@ namespace Example_3;
 
 public class ClassStudy5
 {
-    static void Main()
+    static void Main123()
     {
         
     }
