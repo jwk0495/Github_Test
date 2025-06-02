@@ -2,7 +2,7 @@ namespace Example_2_2;
 
 public class ClassStudy4
 {
-    static void Main()
+    static void Main123()
     {
         // Car car1 = new Car();
         // car1.Brand = "Hyundai";
